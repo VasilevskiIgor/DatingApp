@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { AuthService } from '../_services/auth.service';
+
 @Component({
   selector: 'app-nav',
   templateUrl: './nav.component.html',
@@ -29,6 +30,5 @@ model: any = {};
         localStorage.removeItem('token');
         console.log('logged out');
       }
-
     }
 
