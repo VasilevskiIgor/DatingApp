@@ -32,11 +32,7 @@
     <form
       *ngIf="!loggedIn()" #loginForm="ngForm"
       class="form-inline my-2 my-lg-0" (ngSubmit)="login()">
-      <input
-        class="form-control mr-sm-2"
-        type="text"
-        placeholder="Username"
-        name="username"
+      <input class="form-control mr-sm-2" type="text" placeholder="Username" name="username"
         required
         [(ngModel)]="model.username"/>
       <input
