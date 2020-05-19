@@ -3,7 +3,6 @@ using System.Collections.Generic;
 
 namespace DatingApp.API.Models
 {
-    
     public class User
     {
         public int Id {get; set;}
