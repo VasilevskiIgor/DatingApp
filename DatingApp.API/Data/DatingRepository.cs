@@ -13,7 +13,7 @@
              _context = context;
          }
 
-         public void Add<T>(T entity) where T : class
+         public void Add(User entity)
          {
              _context.Add(entity);
          }
